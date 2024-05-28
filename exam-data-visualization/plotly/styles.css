@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0; /* Lighter background for better contrast */
+  }
+  
+  .data-viz {
+    width: 90%;
+    text-align: center;
+    background: #fff; /* White background for neomorphism */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 
+      20px 20px 60px rgba(0, 0, 0, 0.1), /* Subtle outer shadow */
+      -20px -20px 60px rgba(255, 255, 255, 0.7); /* Strong inner highlight */
+    transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+  }
+  
+  .data-viz:hover {
+    box-shadow: 
+      10px 10px 20px rgba(0, 0, 0, 0.2), /* Darker outer shadow on hover */
+      -10px -10px 20px rgba(255, 255, 255, 0.8); /* Brighter inner highlight on hover */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #bar-chart {
+    width: 100%;
+    height: 600px;
+    background: #fff; /* White background for neomorphism */
+    border-radius: 20px;
+    box-shadow: 
+      inset 10px 10px 20px rgba(0, 0, 0, 0.15), /* Subtle inner shadow */
+      inset -10px -10px 20px rgba(255, 255, 255, 0.7); /* Strong inner highlight */
+    padding: 30px;
+    transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+  }
+  
+
+  
